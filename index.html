@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World! </h1>
+      <button class="button3 button1">Green</button>
+      <button class="button3 button2">Blue</button>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+
+      <h2>HTML Forms</h2>
+
+      <form form="Login_form" onsubmit="submit_form()">  
+        <h4> USERNAME</h4>  
+        <input type="text" placeholder="Enter your email id"/>  
+        <h4> PASSWORD</h4>  
+        <input type="password" placeholder="Enter your password"/></br></br>  
+        <input type="submit" value="Login"/>  
+        <input type="button" value="SignUp" onClick="create()"/>  
+        </form>  
+        <script type="text/javascript">  
+        function submit_form(){  
+           alert("Login successfully");  
+        }  
+        function create(){  
+           window.location="signup.html";  
+        }  
+        </script>  
+  </body>
+</html>
